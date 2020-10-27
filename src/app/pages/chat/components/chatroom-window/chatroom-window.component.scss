@@ -1,0 +1,21 @@
+@import '../../../../../styles/variables';
+
+.message-wrapper{
+    overflow-y:scroll;
+}
+
+.select-room{
+    .select-room-message{
+        width: 40%;
+        height:30%;
+        border:1px solid $light-grey;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        font-size: 1.2em;
+        box-shadow: 0 5px 10px $light-grey;
+        padding-top: 2x;
+         margin-top: 75px;
+         margin-bottom: 10px;
+    }
+}
